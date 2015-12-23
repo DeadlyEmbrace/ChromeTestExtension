@@ -1,15 +1,30 @@
+<!--JQuery javascript-->
 <script src="jquery-2.1.4.js"></script>
+<!--Popup javascript-->
 <script src="popup.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <html>
 <head>
     <title>Test Extension</title>
 </head>
-<body style="width: 200px">
-<h2>Test Extension</h2>
-<p style="font-weight: bold">Question</p>
-<p id="TxtQuestionId"></p>
-<p style="font-weight: bold">Passed to app</p>
-<p id="TxtResult"></p>
+<body style="width: 350px">
+<div class="container-fluid">
+    <div class="row" style="margin-top:10px;">
+        <div class="col-xs-12">
+            <img src="stack16.png" style="vertical-align: middle" alt=""/>
+            <span style="font-weight: bold; font-size: large; vertical-align: middle">Test Extension</span>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 5px;">
+        <div class="col-xs-5" style="font-weight: bold">Question</div>
+        <div class="col-xs-6" id="TxtQuestionId"></div>
+    </div>
+    <div class="row" style="margin-bottom: 10px;">
+        <div class="col-xs-5" style="font-weight: bold">Passed to App</div>
+        <div class="col-xs-6" id="TxtResult"></div>
+    </div>
+</div>
 </body>
 </html>

@@ -8,8 +8,10 @@
   "icons": {
     "16": "stack16.png",
     "100": "stack100.png",
-    "128":  "stack128.png"
+    "128": "stack128.png"
   },
+  //Required to be able to load the bootstrap javascript file from the CDN
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com/; object-src 'self'",
 
   "page_action": {
     "default_icon": "stack16.png",
