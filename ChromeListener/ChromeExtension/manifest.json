@@ -1,0 +1,29 @@
+{
+  //See: https://developer.chrome.com/extensions/manifest
+  "manifest_version": 2,
+  "name": "TestExtension",
+  "version": "1.0",
+
+  "description": "A test extension for Google Chrome.\r\nAllows for passing question numbers from StackOverflow to a companion app.",
+  "icons": {
+    "16": "stack16.png",
+    "100": "stack100.png",
+    "128":  "stack128.png"
+  },
+
+  "page_action": {
+    "default_icon": "stack16.png",
+    "default_popup": "popup.html",
+    "default_title": "Test Extension"
+  },
+
+  "author": "DeadlyEmbrace",
+  "background": {
+    "scripts": [ "jquery-2.1.4.js", "myscript.js" ],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
