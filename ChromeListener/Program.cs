@@ -2,9 +2,9 @@
 
 namespace ChromeListener
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Press Ctrl-Q to exit");
             var listener = new WebListener();
